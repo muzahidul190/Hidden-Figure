@@ -6,7 +6,7 @@ me.on("ready", async () => {
   me.user.setActivity('Coding Discord Bot!!', { type: 'WATCHING' })
   .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'Coding'}`))
   .catch(console.error);
-  me.user.setStatus('invisible');
+  me.user.setStatus('dnd');
 });
 me.on("message", async msg => {
   if(msg == `HF`) return message.channel.send(`Here I'm....`);
