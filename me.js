@@ -1,4 +1,4 @@
 const me = require("discord.js");
 
 
-me.login();
+bot.login(process.env.BOT_TOKEN);
