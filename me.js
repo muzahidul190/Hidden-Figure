@@ -9,7 +9,7 @@ me.on("ready", async () => {
   me.user.setStatus('dnd');
 });
 me.on("message", async msg => {
-  if(msg == `HF`) return message.channel.send(`Here I'm....`);
+  if(msg === `HF`) return message.channel.send(`Here I'm....`);
 });
 
 me.login(process.env.BOT_TOKEN);
