@@ -6,7 +6,7 @@ me.on("ready", async () => {
   me.user.setActivity('Coding Discord Bot', { type: 'WATCHING' })
   .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'Coding'}`))
   .catch(console.error);
-  me.user.setStatus('idle');
+  me.user.setStatus('dnd');
 });
 
 me.login(process.env.BOT_TOKEN);
