@@ -1,0 +1,14 @@
+{
+  "name": "HiddenFigure",
+  "version": "1.0.0",
+  "description": "This is me....",
+  "main": "me.js",
+  "scripts": {
+    "start": "node me.js"
+  },
+  "author": "muzahid",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "11.3.2"
+  }
+}
