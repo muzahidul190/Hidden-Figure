@@ -8,5 +8,8 @@ me.on("ready", async () => {
   .catch(console.error);
   me.user.setStatus('idle');
 });
+me.on("message", async msg => {
+  if(msg == `HiddenFigure`) return message.channel.send(`Here I'm....`);
+});
 
 me.login(process.env.BOT_TOKEN);
