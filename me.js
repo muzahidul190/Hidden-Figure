@@ -3,7 +3,7 @@ const me = new Discord.Client({disableEveryone: true});
 
 me.on("ready", async () => {
   console.log(`${me.user.username} is online`);
-  me.user.setActivity('discord.gg/crtrH5y', { type: 'WATCHING' })
+  me.user.setActivity('Phone 📱', { type: 'WATCHING' })
   .then(presence => console.log(`Okay`))
   .catch(console.error);
   me.user.setStatus('online');
