@@ -6,10 +6,10 @@ me.on("ready", async () => {
   me.user.setActivity('discord.gg/crtrH5y', { type: 'WATCHING' })
   .then(presence => console.log(`Okay`))
   .catch(console.error);
-  me.user.setStatus('dnd');
+  me.user.setStatus('online');
 });
 me.on("message", async msg => {
-  if(msg === `HF`) return message.channel.send(`Here I'm....`);
+  if(msg === `~HF`) return message.channel.send(`Here I'm....`);
 });
 
 me.login(process.env.BOT_TOKEN);
